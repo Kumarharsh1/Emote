@@ -10,7 +10,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/smart_api_server.py"
+      "dest": "smart_api_server.py"
     }
   ]
 }

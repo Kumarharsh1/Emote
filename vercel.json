@@ -1,0 +1,15 @@
+﻿{
+  "version": 2,
+  "builds": [
+    {
+      "src": "smart_api_server.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/smart_api_server.py"
+    }
+  ]
+}

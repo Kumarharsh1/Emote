@@ -1,5 +1,4 @@
 ﻿{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "builds": [
     {
@@ -9,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "smart_api_server.py"
+      "src": "/(.*)",
+      "dest": "/smart_api_server.py"
     }
   ]
 }
